@@ -1,0 +1,46 @@
+/* comment
+Color Key:;
+----------------------
+	Dark Grey: #333333;
+	Light Grey: #F*F*F*;
+	Blue: #07AAB0;
+	*/
+
+
+/* General Styles */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #333333;
+	font-family: 'Helvetical', Arial, sans-serif;
+	font-weight: normal;
+	text-align: left;
+	color: #333333;
+}
+a {
+	text-decoration: none;
+	color: #07AAB0;
+}
+a:hover {
+	color: #333333;
+	border-bottom: 1px dotted #333333; 
+}
+
+.italic {
+font-size: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+.wrapper {
+	width: 800px;
+	height: 100%;
+	color: #FFFFFF;
+	margin: 0 auto; 
+	padding: 25px 50px 0 50px;
+}
