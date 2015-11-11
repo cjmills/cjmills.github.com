@@ -1,0 +1,151 @@
+/* color ref
+#f0f0f0 = 240 240 240
+9D8235 = 157 130 53 */
+
+
+/* General Styles */
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+
+}
+
+
+/*header Style */
+header{border-top: 1px solid #9D8235;}
+.logo {
+	margin-left: 530px;
+	margin-top: 35px;
+	height: 155px;
+	width: 360px;
+	margin-bottom: 80px;
+}
+
+.navigation {
+	margin-left: 420px;
+	margin-top: 45px;
+	width: 540px;
+	border-top: 1px solid #9D8235;
+}
+.navbar {/*fixes the height of the items in the navigation bar*/
+	margin-top: 20px;
+}
+
+.website {/*thr links in the navitagion bar*/
+	text-decoration: none;
+	color: #000000;
+	font-family: Georgia bold;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 51px 0 0;
+
+
+}
+
+.home {/*navigation span tag*/
+	color: #9D8235;
+}
+
+
+/* Content Styles */
+
+
+
+
+.mainpic {
+	margin-top: 20px;
+	width: 1400px;
+	height: 600px;
+}
+
+		/* menu table */
+
+.product {/*food images*/
+	width: 440px; 
+	margin-bottom: 30px;
+}
+.drinks {
+	
+	float: left;
+	margin-left: 230px;
+	margin-top: 50px;
+	border-right: 1px solid #f0f0f0;
+	width: 470px;
+}
+.food {
+	display: inline-block;
+	float: left;
+	
+	margin-top: -612px; /* not going to let this move around*//*do not want this to move when the page scales*/
+	margin-left: 710px;
+	width: 470px;
+
+}
+
+h2 {/*Text Menu Titles*/
+	margin-left: 150px;
+	margin-bottom: 50px;
+	font-family: Georgia italic;
+	font-style: italic;
+	font-size: 28pt;
+	color: #9D8235;
+}
+
+
+ul{/*clears list styles*/
+	list-style: none;
+	font-weight: bold;}
+
+.menu_left,
+.menu_right {
+	width: 200px;
+	float: left;
+}
+
+.menu_right {
+	margin-left: 10px;
+}
+
+.item,
+.price {
+	padding: 5px;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 12pt;
+}
+
+.price {
+	font-family: Georgia italic;
+	font-style: italic;
+}
+
+
+
+/* footer */
+.bottombox {
+		margin-top: 900px;
+		border-top: 1px solid #9D8235;
+		background-color: #f0f0f0;
+		
+	}
+
+.tinypic {
+	margin-left: 615px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+
+
+
+		
+}
