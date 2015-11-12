@@ -71,7 +71,7 @@ header{border-top: 1px solid #9D8235;}
 
 		/* menu table */
 .fix{
-	max-width: 1000px;
+	max-width: 1000px; /*finally stopped sandwiches from moving*/
 }
 
 .product {/*food images*/
