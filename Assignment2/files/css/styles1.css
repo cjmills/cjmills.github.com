@@ -151,10 +151,11 @@ p { text-indent: 20px;}
 }
 
 .textDes {
-	height: 100px;
+	height: 110px;
 	width:400px;
 	border-bottom: 300px;
 	border: 15px solid #333333;
+	padding: 2px;
 }
 
 .main{
