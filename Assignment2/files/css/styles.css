@@ -1,0 +1,211 @@
+/* color ref
+
+
+/* General Styles */
+
+
+
+
+*{
+	margin: 2%;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body,
+html {
+	height: 98%;
+	width: 98%;
+
+}
+
+body {
+	text-align: left;
+	max-width: 1500px;
+	min-width: 750px;
+
+}
+/*header Style */
+header {
+	height: 20%;
+
+}
+
+.logo {
+	
+	float: left;
+	max-width: 50%;
+	min-width: 480px;
+	background: #eeeeee;
+	
+	
+
+}
+.navBar {
+	background-color: #333333;
+	margin-right: 10%;
+	margin-left: 65%;
+	height: 300px;
+	max-width: 300px;
+	min-width: 170px;
+	
+	margin-left: 70%;
+	border-left: 5000px;
+
+
+	
+
+
+	
+
+	
+}
+ul {
+	list-style: none;
+}
+
+.MultiLink {
+	
+	margin-top: 15%;
+	padding: 5%;
+	height: 100%;
+	max-width: 200px;
+	min-width: 150px;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	font-family: serif;
+	font-size: 1pt;
+}
+a:hover {
+	color: #333333;
+	background-color: #eeeeee; 
+}
+ .LinkNull{
+ 	background-color: #eeeeee;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 7%;
+	height: 28%;
+	
+	text-align: center;
+
+	 }
+.LinkOne{
+ 	background-color: #eeeeee;
+	height: 28%;
+	
+	text-align: center;
+	margin: 5%;
+ }
+ .LinkTwo{
+ 	background-color: #eeeeee;
+	height: 28%;
+	text-align: center;
+	margin: 5%;
+ }
+
+.linkTextNull {
+	padding-top: 10%;
+	height: 80%;
+	text-align: center;
+	font-size: 30px;
+
+
+}
+.linkText1 {
+	padding-top: 10%;
+	height: 80%;
+	text-align: center;
+	font-size: 30px;
+
+
+}
+ .linkText2 {
+	padding-top: 10%;
+	height: 80%;
+	text-align: center;
+	font-size: 30px;
+
+
+}
+
+
+li {
+	font-size: 150%;
+}
+
+
+/* Content Styles */
+
+.about {
+	margin-right: 50%;
+	max-height: 20%;
+	max-width: 50%;
+	border-bottom: 70%;
+	margin-left: 15%;
+	margin-top: 100px;
+	
+}
+
+.textDes {
+	height: 200px;
+	width:400px;
+	border-bottom: 300px;
+	border: 15px solid #333333;
+}
+
+.main{
+	margin-top: 50px;
+	width: 1065px;
+}
+
+.pageOneOutline {
+display: inline-block;
+
+}
+.pageOneImage {
+	float: left;
+	background-color: #333333;
+	width: 575px;
+}
+
+
+
+.pageOneAbout {
+	float: right;
+	margin-right: 10%;
+	max-height: 20%;
+	max-width: 20%;
+	border-bottom: 80%;
+	border: 15px solid #333333;
+	
+}
+
+.pageTwoOutline{
+display: inline-block;
+
+
+}
+.pageTwoAbout{
+	float: left;
+	border: 15px solid #333333;
+	
+	max-height: 20%;
+	max-width: 20%;
+	border-bottom: 70%;
+	
+}
+.pageTwoImage {
+float: right;
+margin-right: 10%;
+background-color: #333333;
+	width: 575px;
+
+}
+
+/* footer */
+
